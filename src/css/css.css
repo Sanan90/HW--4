@@ -1,0 +1,32 @@
+#text{
+    -fx-margin-bottom:20px;
+    -fx-text-fill:#000000;
+    -fx-text-size:40px;
+    -fx-font-weight:bold;
+    -fx-text-alignment:right;
+
+
+}
+vbox.setStyle{
+    -fx-padding:0px;
+}
+
+.button{
+    -fx-background-color:#468AF3;
+    -fx-background-radius:0;
+    -fx-border-color:#cccccc;
+    -fx-text-fill:white;
+    -fx-text-size:16px;
+    -fx-font-weight:bold;
+}
+.button:hover{
+    -fx-background-color:#146AF0;
+    -fx-background-radius:0;
+    -fx-border-color:#cccccc;
+}
+
+.button:pressed{
+    -fx-background-color:#DC371D;
+    -fx-background-radius:0;
+    -fx-border-color:#cccccc;
+}
